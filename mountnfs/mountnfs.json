@@ -1,6 +1,6 @@
 {
 	"name": "mountnfs",
-	"text": "Mount a network share using NTFS",
+	"text": "Mount network share %1 to %2",
 	"script": "mountnfs.sh",
 	"args": [
 		{
