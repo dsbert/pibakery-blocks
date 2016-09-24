@@ -1,0 +1,21 @@
+{
+	"name": "mountnfs",
+	"text": "Mount a network share using NTFS",
+	"script": "mountnfs.sh",
+	"args": [
+		{
+			"type": "text",
+			"default": "server:/share"
+		},
+		{
+			"type": "text",
+			"default": "/mount/share"
+		}
+	],
+	"network": true,
+	"continue": true,
+	"type": "network",
+	"category":"network",
+	"shortDescription":"Mount a network share using NFS",
+	"longDescription":"Mount a network share using NFS"
+}
