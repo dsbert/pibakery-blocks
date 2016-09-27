@@ -1,0 +1,12 @@
+{
+	"name": "transmission-vpn",
+	"text": "Install transmission-vpn container",
+	"script": "transmission-vpn.sh",
+	"args": [],
+	"network": true,
+	"continue": true,
+	"type": "software",
+	"category":"software",
+	"shortDescription":"Install transmission-vpn container",
+	"longDescription":"Install transmission-vpn container"
+}
