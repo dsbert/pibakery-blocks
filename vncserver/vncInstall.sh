@@ -6,3 +6,4 @@ dpkg -i /boot/PiBakery/blocks/vncserver/xfonts-base_1.0.3_all.deb /boot/PiBakery
 
 chmod +x /boot/PiBakery/blocks/vncserver/vncSetup.sh
 su - pi -c "/boot/PiBakery/blocks/vncserver/vncSetup.sh $@"
+#exec sudo -u pi -- "/boot/PiBakery/blocks/vncserver/vncSetup.sh" "$@"
